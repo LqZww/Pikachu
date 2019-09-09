@@ -205,7 +205,7 @@
     background: #fc4a62;
     left: 50%;
     margin-left: -50px;
-       border-radius: 50%;
+    border-radius: 50%;
 }
 
 /*
