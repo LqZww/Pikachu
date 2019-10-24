@@ -8,13 +8,16 @@
             .siblings('.active').removeClass('active')
         switch (speed) {
             case 'slow':
-                duration = 110
+                duration = 100
                 break
             case 'normal':
                 duration = 60
                 break
             case 'fast':
                 duration = 20
+                break
+            case 'ray':
+                duration = 1
                 break
         }
     })
@@ -37,8 +40,10 @@
     }
     let code = `
 /*
- * Hello，大家好，现在我要开始画一个皮卡丘咯😊
- *
+ * Hello，面试官您好，请看我的表演😊
+ /
+
+/* 
  * 我先准备一个背景了哟😁
  */
 .preview {
@@ -209,8 +214,7 @@
 }
 
 /*
- * 终于画完了，累死了！
- * 谢谢观看！
+ * 💖感谢您的观看💖
  */
 `
     writeCode('', code)

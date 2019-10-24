@@ -22,6 +22,7 @@ body {
     flex: 1;
     height: 50%;
     padding: 10px;
+    border: 1px dotted grey;
 }
 
 .preview-wrapper {
@@ -36,21 +37,26 @@ body {
 
 .actions {
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .actions>button {
-    margin: 10px;
+    margin: 12px;
     background: #ddd;
     padding: 8px 10px;
     border: none;
+    transition: all .3s;
 }
 
 .actions>button.active {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8)
+    box-shadow: 2px 2px 2px rgba(61, 204, 17, 0.8);
+    color: #eb1741;
+    border-radius: 3px;
+    font-size: 15px;
+
 }
 
 .actions>button:focus {
